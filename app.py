@@ -3,7 +3,7 @@ import psycopg2
 from datetime import datetime
 
 # --- LOGO E CABEÇALHO ---
-ufba_logo_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/UFBA_-_Universidade_Federal_da_Bahia_-_marca_2022.svg/512px-UFBA_-_Universidade_Federal_da_Bahia_-_marca_2022.svg.png"
+ufba_logo_url = "https://imgs.search.brave.com/xr0SY0AP-69kIDcZ-TmUvmzvXluZp1HqcEOK0qmjtgU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi80LzQwL0Jy/YXMlQzMlQTNvX2Rh/X1VGQkEucG5nLzI1/MHB4LUJyYXMlQzMl/QTNvX2RhX1VGQkEu/cG5n"
 
 st.set_page_config(page_title="Formulário TCC - Práticas Leitoras", layout="centered")
 
@@ -13,7 +13,7 @@ with col1:
     st.image(ufba_logo_url, width=100)
 with col2:
     st.markdown("<h1 style='color:#004080;'>📚 Formulário de Pesquisa</h1>", unsafe_allow_html=True)
-    st.markdown("<h3 style='color:#555;'>Tecnologias e Práticas Leitoras - Estudantes Quilombolas da UFBA</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='color:#555;'>Tecnologias e Práticas Leitoras - Estudantes Quilombolas da UFBA/UFRB</h3>", unsafe_allow_html=True)
     st.markdown("**Pesquisa para o TCC em Biblioteconomia e Documentação - UFBA**")
 
 st.markdown("<h4 style='text-align: center; color:#800000;'>✊🏿 Resistência Quilombola ✊🏿</h4>", unsafe_allow_html=True)
