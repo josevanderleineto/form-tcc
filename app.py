@@ -104,7 +104,6 @@ with st.form("formulario"):
     submit = st.form_submit_button("📩 Enviar Resposta")
 
     if submit:
-        data_agora = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         cursor.execute('''
             INSERT INTO respostas (
                 comunidade_natal, universidade, curso, acesso_leitura_comunidade,
@@ -120,7 +119,7 @@ with st.form("formulario"):
             acesso_internet, anos_internet, ", ".join(equipamentos),
             avaliacao_tec_uni, frequencia_acesso_livro, frequencia_leitura_textos,
             impacto_tecnologia, avaliacao_formacao,
-            experiencia_antes, experiencia_depois, data_agora
+            experiencia_antes, experiencia_depois, datetime.now()
         ))
         conn.commit()
         st.success("🎉 Sua resposta foi registrada com sucesso. Muito obrigado por contribuir com a pesquisa!")
