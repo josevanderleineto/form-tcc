@@ -7,7 +7,7 @@ ufba_logo_url = "https://imgs.search.brave.com/xr0SY0AP-69kIDcZ-TmUvmzvXluZp1Hqc
 
 st.set_page_config(page_title="Formulário TCC - Práticas Leitoras", layout="centered")
 
-# Layout superior com logo e título
+# Layout superior com logo e títuloe
 col1, col2 = st.columns([1, 5])
 with col1:
     st.image(ufba_logo_url, width=100)
