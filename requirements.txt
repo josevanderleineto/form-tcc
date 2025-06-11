@@ -127,3 +127,4 @@ xlsxwriter==3.2.3
 xmlrpclib==1.0.1
 xx==3.3.2
 zstandard==0.23.0
+bokeh==3.2.2 
